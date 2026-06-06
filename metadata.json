@@ -1,0 +1,6 @@
+{
+  "name": "Universal Appointment Scheduler",
+  "description": "A modern, flexible white-label booking platform for doctors, consultants, barbers, tutors, and other industry professionals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

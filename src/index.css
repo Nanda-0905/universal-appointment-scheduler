@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Natural Tones Theme Named Classes/Colors */
+  --color-[#F8F7F3]: #F8F7F3;
+  --color-[#2C3327]: #2C3327;
+  --color-[#5F6F52]: #5F6F52;
+  --color-[#F0F2ED]: #F0F2ED;
+  --color-[#7A8273]: #7A8273;
+  --color-[#E8E6DF]: #E8E6DF;
+  --color-[#A66E4E]: #A66E4E;
+
+  --color-natural-bg: #F8F7F3;
+  --color-natural-text: #2C3327;
+  --color-natural-primary: #5F6F52;
+  --color-natural-secondary: #F0F2ED;
+  --color-natural-muted: #7A8273;
+  --color-natural-border: #E8E6DF;
+  --color-[#A66E4E]: #A66E4E;
+}
+
+body {
+  background-color: #F8F7F3;
+  color: #2C3327;
+  font-family: var(--font-sans);
+}
+
+/* Custom modern scrollbar styles for calendar day cells */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #E8E6DF;
+  border-radius: 3px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #7A8273;
+}
+
